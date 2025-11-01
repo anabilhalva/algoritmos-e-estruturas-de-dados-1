@@ -47,10 +47,13 @@ bool lemonadeChange(int* bills, int billsSize) {
     
 }
 int main() {
+
+    //exemplo 1
     int bills1[] = {5, 5, 5, 10, 20}; 
     int size1 = sizeof(bills1) / sizeof(bills1[0]); //calcula o tamanho do array
     printf("Exemple 1: %s\n", lemonadeChange(bills1, size1) ? "true" : "false"); //inicia a impressao e chama a funcao para verificar se o troco pode ser dado
-
+    
+    //exemplo 2
     int bills2[] = {5, 5, 10, 10, 20};
     int size2 = sizeof(bills2) / sizeof(bills2[0]);
     printf("Exemple 2: %s\n", lemonadeChange(bills2, size2) ? "true" : "false");
