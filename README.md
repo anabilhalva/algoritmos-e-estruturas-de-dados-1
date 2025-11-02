@@ -1,2 +1,2 @@
 # algoritmos-e-estruturas-de-dados-1
-disciplina de AED1 2025/2
+repositório dedicado para armazenar exercícios e trabalhos feitos na disciplina de AED1 ao longo do semestre
