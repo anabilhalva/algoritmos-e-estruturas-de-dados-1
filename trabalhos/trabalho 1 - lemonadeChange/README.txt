@@ -1,4 +1,5 @@
-Ana Carolina de Almeida Bilhalva
+---Ana Carolina de Almeida Bilhalva---
+---Turma M1---
 
 Trabalho pratico 1 - Lemonade Change
 At a lemonade stand, each lemonade costs $5. Customers are standing in a queue to buy from you and order one at a time (in the order specified by bills). Each customer will only buy one lemonade and pay with either a $5, $10, or $20 bill. You must provide the correct change to each customer so that the net transaction is that the customer pays $5.
@@ -6,8 +7,6 @@ At a lemonade stand, each lemonade costs $5. Customers are standing in a queue t
 Note that you do not have any change in hand at first.
 
 Given an integer array bills where bills[i] is the bill the ith customer pays, return true if you can provide every customer with the correct change, or false otherwise.
-
- 
 
 Example 1:
 
@@ -27,9 +26,14 @@ From the first two customers in order, we collect two $5 bills.
 For the next two customers in order, we collect a $10 bill and give back a $5 bill.
 For the last customer, we can not give the change of $15 back because we only have two $10 bills.
 Since not every customer received the correct change, the answer is false.
- 
 
 Constraints:
 
 1 <= bills.length <= 105
 bills[i] is either 5, 10, or 20.
+
+
+---Comentários---
+Testei os 2 exemplos que o exercício deu e ambos deram o resultado esperado.
+Não tive dificuldades para fazer a função, achei bem legal e bem ok.
+Fiz o código sozinha.
