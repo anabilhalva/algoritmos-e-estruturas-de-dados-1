@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-bool LemonadeChange(int* bills, int billsSize) {
+bool LemonadeChange (int* bills, int billsSize) {
     int count5 = 0; //contador de notas de 5
     int count10 = 0; //contador de notas de 10
 
