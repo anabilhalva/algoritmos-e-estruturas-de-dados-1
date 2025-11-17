@@ -96,11 +96,6 @@ int main() {
         }
     }
     
-    //este free só seria chamado se o loop terminasse (ex: *op == 5)
-    //mas como o 'case 5' tem 'exit()', esta linha é redundante,
-    //mas é boa prática tê-la.
-    free(pbuffer);
-    return 0;
 }
 
 void adicionarPessoa() {
